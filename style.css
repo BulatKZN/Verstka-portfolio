@@ -287,7 +287,7 @@ hr{
 /* BLOG HTML*/
 
 .header-title{
-    background-image: url(img/blog/bgc\ header.png);
+    background-image: url('img/blog/bgc\ header.png');
     height: 150px;
     padding-top: 120px;
     margin-bottom: 125px;
