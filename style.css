@@ -471,6 +471,94 @@ hr{
     transition: all .4s linear;
 }
 
+/* CCCOOOONNTTTTAAAACCCTTTT*/
+.contact{
+    padding: 0 65px;
+    margin-bottom: 30px;
+}
+
+.contact-map{
+    margin-bottom: 20px;
+}
+
+.contact-content{
+    display: flex;
+
+}
+
+.contact-content-description{
+    margin-right: 60px;
+}
+
+.contact-content-text{
+    color: #252525;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-content-title{
+    color: #ea5a4b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-content-subtitle{
+    color: #252525;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-content-info-item{
+    color: #252525;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.contact-content-info-item:first-child{
+    margin-top: 20px;
+}
+
+.contact-content-menu-wrapper{
+    display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.contact-content-menu-item{
+    width: 50%;
+    padding: 5px 100px 5px 10px;
+    outline: none;
+}
+
+.contact-content-menu-item:focus{
+    border: 1px solid #ea5a4b;
+}
+
+.contact-content-menu-message{
+    padding: 20px 500px 180px 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-content-button{
+    text-transform: uppercase;
+    background-color: #ea5a4b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-content-button:hover{
+    color: black;
+    background-color: #854756;
+    transition: background-color .5s linear ;
+    transition: color .6s linear;
+}
+
 /*MEDIA*/
 @media (max-width: 991px){
     .header-content-photo-album{
@@ -517,6 +605,18 @@ hr{
     
     .blog-video-title{
         margin-top: 0;
+    }
+    
+    .contact{
+        padding: 10px;
+    }
+
+    .contact-map{
+        max-width: 747px;
+    }
+
+    .contact-content{
+        flex-wrap: wrap;
     }
 
 }
@@ -600,6 +700,23 @@ hr{
     .blog-info{
         text-align: center;
     }
+    .contact-map{
+        max-width: 469px;
+    }
+    .contact-content-menu-wrapper{
+        display: block;
+    }
+    .contact-content-description{
+        margin-bottom: 10px;
+    }
+    .contact-content-menu-message{
+        padding-right: 300px;
+    }
+    .contact-content-menu-item{
+        margin-bottom: 10px;
+    }
+
+
     
 }
 @media(max-width:479px){
@@ -661,6 +778,16 @@ hr{
     }
     .blog-video-item{
         max-width: 320px;
+    }
+    .contact-map{
+        max-width: 310px;
+    }
+    .contact-content-menu-message{
+        padding-right: 130px;
+    }
+    .contact-content-menu-item{
+        padding-right: 50px;
+        margin-bottom: 10px;
     }
 
 }
