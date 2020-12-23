@@ -37,10 +37,10 @@
                     <h3 class="header-logo-text">Intent.</h3>
                 </div>
                 <nav class="header-menu-nav">
-                    <a href="./index.html" class="header-menu-nav-item">home</a>
-                    <a href="./blog.html" class="header-menu-nav-item">blog</a>
-                    <a href="./potfolio.html" class="header-menu-nav-item">portfolio</a>
-                    <a href="./contact.html" class="header-menu-nav-item">contact</a>
+                    <a href="./index.html" class="header-menu-nav-item" target="_blank">home</a>
+                    <a href="./blog.html" class="header-menu-nav-item" target="_blank">blog</a>
+                    <a href="./potfolio.html" class="header-menu-nav-item" target="_blank">portfolio</a>
+                    <a href="./contact.html" class="header-menu-nav-item" target="_blank">contact</a>
                     <a href="#" id="menu" class="icon">&#9776;</a>
                 </nav>
             </div>
@@ -72,12 +72,16 @@
                 </div>
                 <div class="contact-content-menu">
                     <div class="contact-content-menu-wrapper">
-                        <input class="contact-content-menu-item" placeholder="First Name"></input>
-                        <input class="contact-content-menu-item" placeholder="Last Name"></input>
-                        <input class="contact-content-menu-item" placeholder="Email Address"></input>
-                        <input class="contact-content-menu-item" placeholder="Url"></input>
+                        <div class="contact-content-menu-wrapper-block">
+                            <input class="contact-content-menu-item" placeholder="First Name"></input>
+                            <input class="contact-content-menu-item" placeholder="Last Name"></input>
+                        </div>
+                        <div class="contact-content-menu-wrapper-block">
+                            <input class="contact-content-menu-item" placeholder="Email Address"></input>
+                            <input class="contact-content-menu-item" placeholder="Url"></input>
+                        </div>
                     </div>
-                    <input class="contact-content-menu-message" placeholder="Message"></input>
+                    <textarea class="contact-content-menu-message" placeholder="Message" readonly></textarea>
                     <button class="contact-content-button">Submit</button>
                 </div>
             </div>
